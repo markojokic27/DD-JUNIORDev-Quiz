@@ -1,0 +1,120 @@
+.quizForm {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.questionForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 75%;
+  height: 100%;
+  padding-right: 30px;
+  @media screen and (max-width: 700px) {
+    padding-right: 0;
+  }
+}
+.questionForm__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.questionForm__question {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+.questionForm__answer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.questionForm__button {
+  width: 95%;
+  height: 90%;
+  border: 2px solid #00d5ff;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 100%;
+  width: 25%;
+  border: 2px solid #00d5ff;
+  border-radius: 10px;
+}
+.displayNone {
+  display: none;
+}
+.displayInvisible {
+  visibility: hidden;
+}
+
+.green {
+  background-color: #00ff80;
+  border-color: #00ff80;
+}
+.red {
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+
+.disabled {
+  color: #000000;
+  cursor: auto;
+}
+.questionForm__container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.questionForm__buttonNext {
+  border-radius: 8px;
+  border: 4px solid #00d5ff;
+  background-color: #00d5ff;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: backround-color ease-in-out 300;
+  font-size: 22px;
+  font-family: fantasy;
+  color: #ffffff;
+}
+.result__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.result__percentage {
+  color: #00d5ff;
+}
+.questionForm__buttonReset {
+  border-radius: 8px;
+  border: 4px solid #ff0000;
+  background-color: #ff0000;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: backround-color ease-in-out 300;
+  font-size: 22px;
+  font-family: fantasy;
+  color: #ffffff;
+}

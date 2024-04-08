@@ -1,0 +1,21 @@
+.app {
+  margin: 30px;
+  width: clamp(300px, 80%, 1000px);
+}
+.quiz{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 30px;
+  height: 555px;
+  @media screen and (max-width: 700px) {
+    padding: 10px;
+    height: auto;
+  }
+}
+.displayNone{
+  display: none;
+}

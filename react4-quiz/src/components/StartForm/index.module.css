@@ -1,0 +1,93 @@
+.startForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.startForm h1 {
+  font-size: 54px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  font-family: fantasy;
+}
+
+.startForm h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-family: fantasy;
+}
+
+.startForm__settings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  border: solid 4px #00d5ff;
+  border-radius: 30px;
+  padding: 20px 100px;
+  width: 80%;
+  @media screen and (max-width: 900px) {
+    padding: 10px;
+    width: 100%;
+  }
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.inputContainer option {
+  font-size: 16px;
+  font-family: inherit;
+  cursor: pointer;
+}
+.inputContainer select {
+  font-size: 16px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 8px;
+  @media screen and (max-width: 900px) {
+    padding: 2px;
+  }
+}
+.inputContainer input {
+  font-size: 16px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 8px;
+  @media screen and (max-width: 900px) {
+    padding: 2px;
+  }
+}
+.startForm button {
+  border-radius: 8px;
+  border: 4px solid #00d5ff;
+  background-color: #00d5ff;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: backround-color ease-in-out 300;
+  font-size: 32px;
+  font-family: fantasy;
+  color: #ffffff;
+}
+
+.startForm button:hover {
+  background-color: #ffffff;
+  color: #00d5ff;
+}
+.startForm button:active {
+  transform: scale(0.9);
+}
+.displayNone {
+  display: none;
+}
